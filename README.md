@@ -1,32 +1,33 @@
-# AI Object Detection Project
+# 🤖 ai-object-detection
+## 👋 About this project
+This is a web AI object detection. You can use it in your web browser. This web application uses the camera of your device to detect objects.
 
-This project demonstrates real-time object detection using a webcam feed, powered by [ml5.js](https://ml5js.org/), a high-level interface for TensorFlow.js. The project is designed with a simple user interface and is built using HTML, CSS (Materialize CSS framework), and JavaScript.
+## ⚙️ Features
 
-## Features
+- ✅ Toggle switch to turn AI on or off
+- ✅ Range slider to control frame rate
 
-- **Real-time Object Detection**: Detects objects in the webcam feed using the COCO-SSD model.
-- **Responsive Design**: Built with Materialize CSS for a clean and responsive UI.
-- **Customizable Settings**: Includes options to enable/disable the AI, adjust frame rate (FPS), and view detected objects on a canvas overlay.
+## 🖼️ Images
+<a href="https://ibb.co/JCNgfJr"><img src="https://i.ibb.co/3kwQDZS/preview-combined.jpg" alt="preview-combined" width="100%"></a>
 
-## Live Demo
+## 💪 Try it
+If you are not convinced yet just try it out here: https://woody.pizza/tensorflow/object-detection/
 
-You can see a live demo of this project on [GitHub Pages](https://yourusername.github.io/yourrepositoryname).
+## 🌐 Multiple browser support
+Probably this will work with the most browsers, but here is a list which browsers I have tested: 
 
-## Installation
+|      Browser      | supported |
+|:-----------------:|:---------:|
+|      Firefox      |     ✅     |
+|      Chrome       |     ✅     |
+|        Edge       |     ✅     |
+| Internet Explorer |     ❌     |
 
-To run this project locally, follow these steps:
+| Mobile Browser | supported |
+|:--------------:|:---------:|
+|     Firefox    |     ✅     |
+|     Chrome     |     ✅     |
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/yourrepositoryname.git
-   cd yourrepositoryname
-   
-**2.  Set up a local server:**
-If you have Python installed, you can start a local server with:
-python -m http.server
-
-**3. (Optional) Install Python dependencies:**
-If you’re using Python for additional backend functionalities, install the required packages:
-pip install -r requirements.txt
-
-
+## ✌️ Credits
+- [Materialize](https://materializecss.com/)
+- [ml5js](https://ml5js.org/)
